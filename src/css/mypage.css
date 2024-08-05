@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'MangoDdobak-B';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-3@1.1/MangoDdobak-B.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+#fontDiv{
+    font-family: 'MangoDdobak-B' ;
+}
+
+:root{
+    --color-main-black: #FFFCDD;
+    --color-orange-main: #FEA410;
+}
+.mypage_div{
+    font-family: MangoDdobak-B;
+    margin-left:100px;
+    background-color: white;
+    width: 260px;
+    height: auto;
+}
+.profile_btn{
+    margin-top: 100px;
+    width: 70px;
+    height: 70px;
+    margin-botton: 80px;
+}
+.nickname_div, .introduction_div, .email_div{
+    margin : 0px;
+}
+
+.nickname_txt, .introduction_txt, .email_txt{
+    font-family: MangoDdobak-B;
+    color: #FEA410;
+    margin-bottom:5px;
+}
+
+.input_nickname_txt, .input_introduction_txt, .input_email_txt{
+    font-family: MangoDdobak-B;
+    font-weight: lighter;
+    margin-bottom:5px;
+    border: none;
+    border-bottom: 2px solid #FEA410;
+    width: 180px;
+
+}
+.pencil_btn{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-left: 0px;
+}
+
+@media (max-width: 768px) {
+    .mypage_div {
+        margin-left:0 ;
+        padding-left: 85px;
+        padding-top: 0;
+        position: fixed;
+        bottom: 90px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+        box-sizing: border-box;
+    }
+
+    .profile_btn{
+        margin-top: 60px;
+    }
+
+    .input_nickname_txt, .input_introduction_txt, .input_email_txt{
+        font-family: MangoDdobak-B;
+        font-weight: lighter;
+        margin-bottom:5px;
+        border: none;
+        border-bottom: 2px solid #FEA410;
+        width: 230px;
+    }
+}
