@@ -10,12 +10,17 @@
 }
 
 
+.body_div {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
 .login_div{
     font-family: MangoDdobak-B;
-    margin-left:100px;
     background-color: white;
     width: 260px;
-    height: auto;
+    height: 740px;
     display : flex;
     flex-direction: column;
     align-items: center;
@@ -29,6 +34,7 @@
     margin-botton: 80px;
 
 }
+
 .login_txt{
     font-size: 13px;
     color: #FEA410;
@@ -37,4 +43,11 @@
     width : 200px;
     height: 30.45px;
     cursor: grab;
+}
+
+#navermap_div{
+    display: flex;
+    padding: 0px;
+    width: 100%;
+    height: 740px;
 }
