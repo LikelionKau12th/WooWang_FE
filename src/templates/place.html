@@ -5,40 +5,55 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../js/place.js"></script>
     <link rel="stylesheet" href="../css/place.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/navermap.css">
+    <script src="../js/navermap.js"></script>
 
 </head>
 <body>
-<div class="place_div">
-    <div class="place_top">
-        <img src="../img/image1.png" alt="image1_btn" class="image1_btn">
-        <div class="image_h_div">
-            <p class="image_h_1">#여의도</p>
-            <p class="image_h_2">#데이트코스</p>
+<div class="body_div">
+    <div nav-include-path="../templates/navbar.html">
+        <script>LoadNAVBAR();</script>
+    </div>
+    <div class="place_div">
+        <div class="search_box">
+            <input type="text" class="search_txt" name="" placeholder="랜드마크를 입력하세요">
+            <img src="../img/search.png" alt="search_btn" class="search_btn">
+        </div>
+
+        <div class="place_top">
+            <img src="../img/image1.png" alt="image1_btn" class="image1_btn">
+            <div class="image_h_div">
+                <p class="image_h_1">#여의도</p>
+                <p class="image_h_2">#데이트코스</p>
+            </div>
+        </div>
+        <div class="image_course">
+            <div class="c_place1">
+                <img src="../img/ellipse.png" alt="ellipse_btn" class="ellipse1_btn">
+                <div class="image_c_txt1">
+                    <p class="image_c_1">더현대서울</p>
+                    <p class="image_c_1a">서울 영등포구 여의대로 108 더현대 서울</p>
+                </div>
+            </div>
+            <div class="c_place2">
+                <img src="../img/ellipse.png" alt="ellipse_btn" class="ellipse2_btn">
+                <div class="image_c_txt2">
+                    <p class="image_c_2">후라토식당</p>
+                    <p class="image_c_1a">서울 영등포구 국재금융로2길 32 여의도 파앤스타워 3층 후라토식당</p>
+                </div>
+            </div>
+            <div class="c_place3">
+                <img src="../img/ellipse.png" alt="ellipse_btn" class="ellipse3_btn">
+                <div class="image_c_txt3">
+                    <p class="image_c_3">여의도한강공원</p>
+                    <p class="image_c_1a">서울 영등포구 여의동로 330 한강사업본부 여의도안내센터</p>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="image_course">
-        <div class="c_place1">
-            <img src="../img/ellipse.png" alt="ellipse_btn" class="ellipse1_btn">
-            <div class="image_c_txt1">
-                <p class="image_c_1">더현대서울</p>
-                <p class="image_c_1a">서울 영등포구 여의대로 108 더현대 서울</p>
-            </div>
-        </div>
-        <div class="c_place2">
-            <img src="../img/ellipse.png" alt="ellipse_btn" class="ellipse2_btn">
-            <div class="image_c_txt2">
-                <p class="image_c_2">후라토식당</p>
-                <p class="image_c_1a">서울 영등포구 국재금융로2길 32 여의도 파앤스타워 3층 후라토식당</p>
-            </div>
-        </div>
-        <div class="c_place3">
-            <img src="../img/ellipse.png" alt="ellipse_btn" class="ellipse3_btn">
-            <div class="image_c_txt3">
-                <p class="image_c_3">여의도한강공원</p>
-                <p class="image_c_1a">서울 영등포구 여의동로 330 한강사업본부 여의도안내센터</p>
-            </div>
-        </div>
-    </div>
+    <div id="navermap_div"></div>
 </div>
 </body>
