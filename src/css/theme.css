@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'MangoDdobak-B';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-3@1.1/MangoDdobak-B.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: 'MangoDdobak-B', sans-serif;
+}
+p {
+    margin: 2px;
+}
+
+.theme_div {
+    margin-top: 60px;
+    margin-left: 100px;
+    background-color: white;
+    width: 400px;
+
+}
+
+.image1_btn, .image4_btn, .image5_btn{
+    width: 200px;
+    height: 132.81px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.theme_txt1, .theme_txt2, .theme_txt3{
+    display: flex;
+    justify-content: center;
+}
+
+.theme1,.theme2, .theme3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.txt1_2, .txt2_2, .txt3_2{
+    color: #FEA410;
+}
+
+
+

@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'MangoDdobak-B';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-3@1.1/MangoDdobak-B.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: 'MangoDdobak-B', sans-serif;
+}
+p {
+    margin: 0;
+}
+
+.place_div {
+    margin-top: 60px;
+    margin-left: 100px;
+    background-color: white;
+    width: 400px;
+}
+
+.place_top{
+    display: flex;
+}
+
+.image_h_1, .image_h_2{
+    margin-bottom: 5px;
+}
+
+.image_h_div{
+    display: flex;
+    flex-direction: column;
+}
+
+.c_place1, .c_place2, .c_place3{
+    display: flex;
+}
+
+.image1_btn{
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.image_c_1, .image_c_2, .image_c_3{
+    font-size: 20px;
+    color: #FEA410;
+    margin-bottom: 5px;
+}
+
+.image_c_1a, .image_c_2a, .image_c_3a{
+    font-size: 13px;
+    color: #3a3a3a;
+    margin-bottom: 5px;
+}
+
+.image_c_txt1, .image_c_txt2, .image_c_txt3{
+    margin-bottom: 10px;
+}
+
+.ellipse1_btn, .ellipse2_btn, .ellipse3_btn{
+    width:5px;
+    height: 5px;
+    margin-right: 10px;
+    margin-top:5px;
+}
+
+.image1_btn{
+    width: 200px;
+    height: 132.81px;
+}
